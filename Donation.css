@@ -296,10 +296,8 @@ about {
     padding-bottom: 50px;
     text-align: center;
     color:  whitesmoke;
-    background: url('img/dn.jpg') no-repeat center center;
+    background: url('img/brooklynbridge2.jpg') no-repeat center center;
     background-size: cover;
-    opacity: 0.72;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 #CH {
     padding:0px;
@@ -324,15 +322,19 @@ about {
 #Donate2 {
     margin-bottom:40px;
 }
-#about {
-  
+#Donation {
+  color:chartreuse;
 }
 #don{
+   border-width:0px;
    color:black;
    background-color:chartreuse;
    padding-right:25px; 
    padding-left:25px;
 }
 #l2 {
-    color:green;
+    font-size:15px;
+}
+.navbar{
+    background-color:#8d9ea5;
 }

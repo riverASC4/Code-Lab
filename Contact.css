@@ -12,7 +12,6 @@ body {
 }
 #Donation2 {
     font-size:15px;
-    color:green;
 }
 #Home {
     padding-top:22px;
@@ -43,7 +42,7 @@ body {
 #Donation{
     padding-top:22px;
     font-size:16px;
-    color:green;
+    color:chartreuse;
 }
 .navbar-brand {
     font-size:30px;
