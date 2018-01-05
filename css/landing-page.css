@@ -200,7 +200,7 @@ p.copyright {
 .banner {
    width:100%;
 }
-#Home {
+#classes {
     padding-top:22px;
     padding-bottom:8px;
     margin-top:15px;
@@ -209,7 +209,7 @@ p.copyright {
     color:white;
     font-size:16px;
 }
-#About {
+#schedule {
     color:white;
     padding-top:22px;
     margin-top:15px;
@@ -236,7 +236,7 @@ p.copyright {
   margin-right:70px;
   font-size:16px;
 }
-#Donation{
+#register{
     color:chartreuse;
     padding-top:22px;
     margin-top:15px;
@@ -353,12 +353,12 @@ footer {
     background-color:chartreuse;
 }
 
-#Home, #About, #curriculum, #team {
+#classes, #schedule, #curriculum, #team {
     color:#737373;
     font-size:17px;
 }
 
-#Donation {
+#register {
     padding-top:40px;
     color: white;
     font-size: 17px;
