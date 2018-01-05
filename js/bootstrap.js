@@ -2375,22 +2375,3 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
-
-var subtitles= ["http://static1.nydailynews.com/polopoly_fs/1.1928679.1409876132!/img/httpImage/image.jpg_gen/derivatives/article_970/black-girls-code.jpg","http://iloveblackpeople.net/wp-content/uploads/2016/06/black-girls-code.jpg","","",""]
-var count = 0;
-
-$(document).ready(function (){
-    changeSubtitle();
-});
-
-function changeSubtitle() {
-    setInterval(function () {
-        if (count < subtitles.length - 1) {
-            $("#subtitle").html(subtitles[count]);
-            count++;
-        } else {
-            $("#subtitle").html(subtitles[subtitles.length - 1]);
-            count = 0;
-        }
-    }, 1500);
-}

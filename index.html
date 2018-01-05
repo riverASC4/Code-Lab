@@ -19,7 +19,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="landing-page.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +32,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top topnav navbar13" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -45,27 +45,30 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" id="navbaritems">
                    <li>
                       <a id="CH" href="index.html"><img src="img/clfinal.png" width="80" height="80"></a>
                     </li>
                    <li>
-                        <a id="Home" href="index.html">Home</a>
+                        <a id="Home" href="index.html">Classes</a>
                     </li>
                     <li>
-                        <a id="About" href="#about">Who are we?</a>
+                        <a id="About" href="#about">Schedule</a>
                     </li>
                     <li>
-                        <a id="Events" href="#events">Events</a>
+                        <a id="curriculum" href="#events">Curriculum</a>
                     </li>
                     <li>
-                        <a id="Contact" href="Contact.html">Contact us</a>
+                        <a id="team" href="team.html">Team</a>
                     </li>
                     <!--<li>
                         <a id="Gallery" href="">Gallery</a>
                     </li>-->
                      <li>
-                        <a id="Donation" href="Donation.html">Donation</a>
+                        <button id="NWOT"><a id="Donation" href="Donation.html">Register!</a></button>
+                    </li>
+                    <li>
+                        <a id="Phone" href="Contact.html">(718)-643-1680</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +100,6 @@
                   </div>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
 
@@ -114,11 +116,11 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">WHO ARE WE?</h2>
-                    <p class="lead">Code Lab is a Not-for-profit/For-Profit Edtech company devoted to increasing the pool of marginalized youth in tech by organizing Hackathons, One Week Intensive Coding Programs, in school coding programs, and having a free standing location with a curriculum incorporating coding and robotics. </p>
+                    <p class="lead"> </p>
                     
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13512229_1123012367759377_134294581505708492_n.jpg?oh=835c5201eff6b75522149feeda10b791&oe=5A399DF6" width="" height="" alt="">
+                    <img class="img-responsive" id="images" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg" width="" height="" alt="">
                 </div>
             </div>
 
@@ -160,7 +162,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="River - Copy (2).JPG" width="200" height="200" class="img-responsive img-circle" alt="">
+                        <img src="img/River - Copy (2).JPG" width="200" height="200" class="img-responsive img-circle" alt="">
                         <h4>River Fields</h4>
                         <p class="text-muted">Co-founder</p>
                         <ul class="list-inline social-buttons">
@@ -173,7 +175,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="josh.jpg" width="200" height="200" class="img-responsive img-circle" alt="">
+                        <img src="img/josh.jpg" width="200" height="200" class="img-responsive img-circle" alt="">
                         <h4>Joshua Forde</h4>
                         <p class="text-muted">Backend Developer</p>
                         <ul class="list-inline social-buttons">
@@ -186,7 +188,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img id="taneil" src="taneil.jpg"  width="200" height="200" class="img-responsive img-circle" alt="">
+                        <img id="taneil" src="img/taneil.jpg"  width="200" height="200" class="img-responsive img-circle" alt="">
                         <h4>Taneil Knowles</h4>
                         <p class="text-muted">Frontend Developer/</p>
                         <ul class="list-inline social-buttons">
@@ -265,7 +267,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script src="Landing-page.js"></script>
+    <script src="js/Landing-page.js"></script>
     
 </body>
 
