@@ -72,8 +72,64 @@ h6 {
 
 /***** Curriculum ****
 /***** Schedule *****
-/**** Contact *****
-
+/**** Contact *****/
+body {
+    background:white;
+}
+#Donation {
+    font-size:17px;
+}
+#Logo {
+    margin-top:160px;
+}
+#Home {
+    margin-left:100px;
+}
+#Donation2 {
+    font-size:15px;
+}
+#Home {
+    padding-top:22px;
+    margin-left:150px;
+    margin-right:70px;
+    font-size:16px;
+}
+#About {
+    padding-top:22px;
+    margin-right:70px;
+    font-size:16px;
+}
+#Events{
+  padding-top:22px;
+  margin-right:70px;
+  font-size:16px;
+}
+#Gallery {
+    padding-top:22px;
+    margin-right:70px;
+    font-size:16px;
+}
+#Contact {
+  padding-top:22px;
+  margin-right:70px;
+  font-size:16px;
+}
+#Donation{
+    padding-top:22px;
+    font-size:16px;
+    color:chartreuse;
+}
+.navbar-brand {
+    font-size:30px;
+}
+#Home {
+    font-size:16px;
+    margin-left:100px;
+}
+#Event {
+    color:grey;
+    margin-top:-440px;
+}
 
 /* Type Writer Effect Code */
 .typewriter h3 {
