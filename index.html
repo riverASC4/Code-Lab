@@ -13,14 +13,13 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylesheet.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,10 +53,10 @@
                         <a id="classes" href="index.html">Classes</a>
                     </li>
                     <li>
-                        <a id="schedule" href="index.html">Schedule</a>
+                        <a id="schedule" href="#about">Schedule</a>
                     </li>
                     <li>
-                        <a id="curriculum" href="index.html">Curriculum</a>
+                        <a id="curriculum" href="#events">Curriculum</a>
                     </li>
                     <li>
                         <a id="team" href="Contact.html">Team</a>
@@ -205,9 +204,27 @@
         <!-- /.container -->
     </div>
     </section>
-<a  name="contact"></a>
+<a name="contact"></a>
+
 <div id="Sign">
-    <div class="banner">
+  <h6 id="mail">Subscribe</h6>
+  <h3 id="mailtext"><p>Join our email list to receive news, special offers, and informative updates about our computer coding classes & tech camps for kids!</p></h3>
+  <form class="form-inline spacer" id="new_mailing_list_signup" action="/mailing_list_signups" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="nwWpRSO0I35AOmvsYUA3tUEbqGaB+s1IlXvkrufDlyEW1qXXJ0YRFiqwYxlhCFh2ZvufUOAwaeSCWu+YR4TEsg==">
+            <div class="form-group">
+              <label class="sr-only" for="first-name">First name</label>
+              <input type="text" name="mailing_list_signup[first_name]" class="form-control" id="first-name" placeholder="First name">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="last-name">Last name</label>
+              <input type="text" name="mailing_list_signup[last_name]" class="form-control" id="last-name" placeholder="Last name">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" name="mailing_list_signup[email]" class="form-control" id="email" placeholder="Email">
+            </div>
+            <button type="submit" class="btn btn-da">Sign up</button>
+  </form>
+  <!--  <div class="banner">
         <div class="container">
             <div class="row">
               <div id="l2">
