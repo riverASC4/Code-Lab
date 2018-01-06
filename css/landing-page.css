@@ -115,6 +115,22 @@ h6 {
     .intro-divider {
         width: 100%;
     }
+
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .network-name {
@@ -176,34 +192,11 @@ h6 {
     }
 }
 
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
 
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-p.copyright {
-    margin: 15px 0 0;
-}
 .banner {
    width:100%;
 }
+
 #classes {
     padding-top:22px;
     padding-bottom:8px;
@@ -213,6 +206,7 @@ p.copyright {
     color:white;
     font-size:16px;
 }
+
 #schedule {
     color:white;
     padding-top:22px;
@@ -220,6 +214,7 @@ p.copyright {
     margin-right:70px;
     font-size:16px;
 }
+
 #curriculum{
   color:white;
   padding-top:22px;
@@ -227,12 +222,14 @@ p.copyright {
   margin-right:70px;
   font-size:16px;
 }
+
 #Gallery {
     padding-top:22px;
     margin-top:15px;
     margin-right:70px;
     font-size:16px;
 }
+
 #team {
   color:white;
   padding-top:22px;
@@ -240,38 +237,42 @@ p.copyright {
   margin-right:70px;
   font-size:16px;
 }
+
 #register{
     color:chartreuse;
     padding-top:22px;
     margin-top:15px;
     font-size:16px;
 }
+
 .navbar-brand {
     font-size:30px;
-}
-footer {
-    background-color:white;
 }
 
 .team-member {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
 }
+
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
 }
+
 .team-member p {
   margin-top: 0;
 }
+
 .team-member {
     text-align: center;
 }
+
 .navbar {
     background-color:#8d9ea5;
     border-width:0px;
@@ -282,6 +283,7 @@ footer {
     font-style:bold;
     color:black;
 }
+
 .button-spacing{
     padding: 15px;
     margin: 0 auto;
@@ -292,15 +294,18 @@ footer {
     font-size:100px;
     margin-bottom:40px;
 }
+
 #CH {
     padding-top:0px;
     padding-bottom:6px;
     margin-top:10px;
     margin-bottom:-2px;
 }
+
 .banner {
    background-color:#8d9ea5;
 }
+
 #mail {
     font-size:45px;
     color:red;
@@ -309,6 +314,7 @@ footer {
     margin-right:70px;
     margin-bottom:100px;
 }
+
 #SUN {
     border-width:0px;
     background-color:Grey;
@@ -319,6 +325,7 @@ footer {
     margin-top:-30px;
     margin-bottom:60px;
 }
+
 #RF {
     border-width:0px;
     background-color:Grey;
@@ -327,16 +334,11 @@ footer {
     margin-right:310px;
     margin-bottom:60px;
 }
+
 #Sign-Up {
   color:white;
   background-color:#05d008;
   border-width:0px;
-}
-footer{
-    margin-top:50px;
-    padding-top:50px;
-    padding-bottom:50px;
-    margin-bottom:-60px;
 }
 
 #josh {
@@ -345,6 +347,7 @@ footer{
 }
 #Sign {
     margin-top:100px;
+    text-align:center;
 }
 
 .navbar13 {
@@ -353,9 +356,6 @@ footer{
     margin-bottom:-100px;
 }
 
-footer {
-    background-color:chartreuse;
-}
 
 #classes, #schedule, #curriculum, #team {
     color:#737373;
@@ -423,4 +423,20 @@ footer {
   margin-top:-20px;
   margin-bottom:40px;
   font-style:"Times New Roman";
+}
+
+footer{
+  background-color: chartreuse;
+  margin-top: 96px;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+    align: center;
+}
+
+social-links {
+    text-align: center;
 }
